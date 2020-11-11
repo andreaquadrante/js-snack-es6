@@ -1,7 +1,7 @@
 // Creare un array di oggetti: ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
-var bikes = [
+let bikes = [
 
   {
 
@@ -26,9 +26,9 @@ var bikes = [
 
 ]
 
-var lightestBike = bikes[0];
+let lightestBike = bikes[0];
 
-for (var i = 0; i < bikes.length; i++) {
+for (let i = 0; i < bikes.length; i++) {
 
   if (bikes[i].weight < lightestBike.weight) {
     lightestBike = bikes[i]

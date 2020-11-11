@@ -1,11 +1,5 @@
-function triangleHypotenuse (base, height) {
-  return (base ** 2 + height ** 2) ** 0.5
-}
+const triangleHypotenuse = (base, height) => (base ** 2 + height ** 2) ** 0.5;
 
-function trianglePerimeter (base, height, hypotenuse) {
-  return base + height + hypotenuse
-}
+const trianglePerimeter = (base, height, hypotenuse) => base + height + hypotenuse;
 
-function triangleArea (base, height) {
-  return (base * height) / 2
-}
+const triangleArea = (base, height) => (base * height) / 2;

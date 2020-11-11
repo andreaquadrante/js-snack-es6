@@ -1,3 +1,1 @@
-function randomNumber (min, max) {
-  return Math.floor (Math.random () * ((max + 1) - min) + min)
-}
+const randomNumber = (min, max) => Math.floor (Math.random () * ((max + 1) - min) + min);

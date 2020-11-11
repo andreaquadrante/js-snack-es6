@@ -3,7 +3,7 @@
 // Nome = palla
 // Peso = 10
 
-var ball = {
+let ball = {
 
   'name': "palla",
   'weight': 10
